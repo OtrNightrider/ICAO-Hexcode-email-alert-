@@ -36,9 +36,9 @@ import sys
 HEX_CODE_TO_MONITOR = 'A023F5'
 DUMP1090_HOST = '127.0.0.1'
 DUMP1090_PORT = 30003  # Standard port for dump1090
-EMAIL_TO = 'biloxicoast2010@gmail.com'
-EMAIL_FROM = 'Biloxicoast2010@gmail.com'
-GMAIL_APP_PASSWORD = 'rzpb bjfl eyxc izxa'  # Ensure this password is correct and secure
+EMAIL_TO = 'your_email_here@gmail.com'
+EMAIL_FROM = 'your_email_here@gmail.com'
+GMAIL_APP_PASSWORD = 'abcd efgh ijkl mnop'  # Ensure this password is correct and secure
 
 def send_email(aircraft_info):
     """Send an email alert when the specified hex code is detected."""
